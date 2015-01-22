@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Mark van Lagen</string>
+	<key>Builder Version</key>
+	<string>10600.3.10.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>KickTraq</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.mvlagen.kicktraq</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>kicktraq-safari-extension.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>jquery-2.1.1.min.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>kicktraq-safari-extension.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>KickTraq Extension for Safari</string>
+	<key>DeveloperIdentifier</key>
+	<string>5HC6C66BE5</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.kickstarter.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://www.kicktraq.com</string>
+</dict>
+</plist>

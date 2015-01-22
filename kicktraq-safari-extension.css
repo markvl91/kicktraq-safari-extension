@@ -1,0 +1,29 @@
+#kicktraq {
+	margin: auto;
+	margin-bottom: 10px !important;
+	width: 100%;
+	text-align: center;
+}
+
+#kicktraq a {
+	display: block !important;
+	width: 100% !important;
+	margin-bottom: -5px !important;
+}
+
+#kicktraq a img {
+	width: 100% !important;	
+}
+
+@media screen and (max-width: 640px) {
+	#kicktraq {
+		margin-bottom: 0 !important;
+		margin-left: -20px !important;
+		margin-right: -20px !important;
+		width: -webkit-calc(100% + 40px);
+	}
+	
+	#kicktraq a {
+		margin-bottom: -5px !important;
+	}
+}

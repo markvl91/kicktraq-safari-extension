@@ -5,7 +5,7 @@ jQuery(function() {
 	var project = "";
 	var imageToLoad = "";
 	
-	var contentDiv = document.getElementById("content");
+	var contentDiv = document.querySelector('.container-flex');
 	var image = document.createElement("img");
 	var imageLink = document.createElement("a");
 	var imageContainer = document.createElement("div");
@@ -15,11 +15,14 @@ jQuery(function() {
 	placeholder.style.lineHeight = "270px";
 	
 	imageContainer.id = "kicktraq"
-	imageContainer.style.textAlign = "center";
-	imageContainer.style.height = "270px";
-	imageContainer.style.width = "940px";
-	imageContainer.style.margin = "auto";
-	imageContainer.style.marginBottom = "10px";
+//	imageContainer.style.textAlign = "center";
+//	imageContainer.style.height = "270px";
+//	imageContainer.style.width = "940px";
+//	imageContainer.style.maxWidth = "100%";
+//	imageContainer.style.margin = "auto";
+//	imageContainer.style.marginBottom = "10px";
+//	
+//	image.style.width = "100%";
 	
 	imageContainer.appendChild(placeholder);
 	contentDiv.insertBefore(imageContainer, contentDiv.firstChild);
